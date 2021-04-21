@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
 def add_form
-  
+   render({:template => "math_templates/add_form.html.erb"})
 end
 
   def addition_results
